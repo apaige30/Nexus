@@ -1,5 +1,5 @@
 {
-  "experiment_id": "uuid",
+  "experiment_id": "exp_001",
   "experiment_name": "homepage_ranker",
   "variant": "control"
   "status": "active",
