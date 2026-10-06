@@ -1,0 +1,8 @@
+{
+  "id": "string",
+  "email": "string",
+  "username": "string",
+  "display_name": "string",
+  "role": "string",
+  "created_date": "datetime"
+}
