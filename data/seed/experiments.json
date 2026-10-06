@@ -1,0 +1,5 @@
+{
+  "experiment_id": "uuid",
+  "experiment_name": "homepage_ranker",
+  "variant": "control"
+}
