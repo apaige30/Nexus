@@ -1,1 +1,7 @@
-
+{
+  "content_id": "uuid",
+  "creator_id": "uuid",
+  "content_type": "video",
+  "category": "technology",
+  "publish_date": "date"
+}
