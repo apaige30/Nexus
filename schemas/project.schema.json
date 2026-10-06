@@ -1,7 +1,7 @@
 {
-  "id": "string",
-  "name": "string",
-  "description": "string",
-  "owner_id": "string",
-  "created_at": "datetime"
+  "event_id": "string",
+  "timestamp": "datetime"
+  "user_id": "string",
+  "content_id": "string",
+  "event_type": "string"
 }
