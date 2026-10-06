@@ -1,1 +1,7 @@
-
+{
+  "user_id": "uuid",
+  "age_group": "18-24",
+  "country": "US",
+  "subscription_tier": "premium"
+  "signup_date": "date"
+}
