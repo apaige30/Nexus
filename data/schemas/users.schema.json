@@ -3,5 +3,5 @@
   "email": "string",
   "display_name": "string",
   "role": "string",
-  "created_date": "datetime"
+  "created_at": "datetime"
 }
