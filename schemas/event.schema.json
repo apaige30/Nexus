@@ -4,4 +4,5 @@
   "user_id": "string",
   "content_id": "string",
   "event_type": "string"
+  "experiment_id": "string"
 }
