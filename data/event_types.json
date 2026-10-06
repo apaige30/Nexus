@@ -1,0 +1,13 @@
+[
+  "impression",
+  "recommendation",
+  "click",
+  "search",
+  "view",
+  "ad_exposure",
+  "notification",
+  "purchase",
+  "subscription",
+  "cancellation",
+  "churn"
+]
