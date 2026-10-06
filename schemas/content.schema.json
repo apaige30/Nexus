@@ -1,9 +1,7 @@
 {
-  "id": "string",
-  "project_id": "string",
-  "author_id": "string",
+  "content_id": "string",
   "title": "title",
   "content_type": "string",
-  "body": "string",
-  "created_at": "datetime"
+  "creator_id": "string",
+  "published_at": "datetime"
 }
