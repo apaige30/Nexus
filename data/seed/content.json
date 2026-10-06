@@ -1,7 +1,7 @@
 {
-  "content_id": "uuid",
-  "creator_id": "uuid",
-  "content_type": "video",
-  "category": "technology",
-  "publish_date": "date"
+  "content_id": "cnt_001",
+  "title": "Top 10 DS Trends",
+  "creator_id": "usr_001",
+  "content_type": "article",
+  "publish_at": "2026-01-10T12:00:00Z"
 }
