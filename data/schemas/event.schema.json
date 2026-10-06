@@ -1,6 +1,6 @@
 {
   "event_id": "string",
-  "timestamp": "datetime
+  "timestamp": "datetime",
   "user_id": "string",
   "event_type": "string",
   "content_id": "string",
