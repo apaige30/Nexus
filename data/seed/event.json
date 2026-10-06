@@ -1,6 +1,6 @@
 {
   "event_id": "evt_001",
-  "timestamp": "datetime",
+  "timestamp": "2026-01-02T09:15:00Z",
   "user_id": "usr_001",
   "content_id": "cnt_001",
   "event_type": "view"
