@@ -1,8 +1,8 @@
 {
-  "event_id": "uuid",
+  "event_id": "evt_001",
   "timestamp": "datetime",
-  "user_id": "uuid",
-  "content_id": "uuid",
+  "user_id": "usr_001",
+  "content_id": "cnt_001",
   "event_type": "view"
 
 }
