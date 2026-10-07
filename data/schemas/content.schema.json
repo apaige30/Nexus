@@ -3,5 +3,8 @@
   "author_id": "string",
   "title": "title",
   "content_type": "string",
+  "genre": "string",
+  "duration_seconds": "integer",
+  "quality_score": "number",
   "published_at": "datetime"
 }
