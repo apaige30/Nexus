@@ -1,0 +1,16 @@
+[
+  {
+    "assignment_id": "ASN_5001",
+    "experiment_id": "EXP_01",
+    "user_id": "USR_101",
+    "variant": "A",
+    "assigned_at": "2024-04-01T00:05:00Z"
+  },
+  {
+    "assignment_id": "ASN_5002",
+    "experiment_id": "EXP_01",
+    "user_id": "USR_102",
+    "variant": "B",
+    "assigned_at": "2024-04-01T00:06:00Z"
+  }
+]

@@ -1,7 +1,22 @@
-{
-  "experiment_id": "exp_001",
-  "experiment_name": "homepage_ranker",
-  "variant": "control"
-  "status": "active",
-  "start_date": "2026-01-15T00:00:00Z"
-}
+[
+  {
+    "experiment_id": "EXP_01",
+    "experiment_name": "Homepage Personalization",
+    "status": "running",
+    "start_at": "2024-04-01T00:00:00Z",
+    "end_at": null,
+    "variants": ["A", "B"],
+    "primary_metric": "click_through_rate",
+    "target_population": "new_users"
+  },
+  {
+    "experiment_id": "EXP_02",
+    "experiment_name": "Autoplay Feature Test",
+    "status": "completed",
+    "start_at": "2024-01-15T00:00:00Z",
+    "end_at": "2024-02-15T00:00:00Z",
+    "variants": ["control", "autoplay_enabled"],
+    "primary_metric": "watch_time",
+    "target_population": "all_users"
+  }
+]

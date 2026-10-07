@@ -1,7 +1,0 @@
-{
-  "content_id": "string",
-  "title": "title",
-  "content_type": "string",
-  "creator_id": "string",
-  "published_at": "datetime"
-}

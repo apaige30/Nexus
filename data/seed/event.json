@@ -1,9 +1,30 @@
-{
-  "event_id": "evt_001",
-  "timestamp": "2026-01-02T09:15:00Z",
-  "user_id": "usr_001",
-  "content_id": "cnt_001",
-  "event_type": "view"
-  "experiment_id": "exp_001"
-
-}
+[
+  {
+    "event_id": "EVT_9001",
+    "timestamp": "2024-05-01T12:00:00Z",
+    "user_id": "USR_101",
+    "event_type": "play",
+    "content_id": "CNT_001",
+    "session_id": "SES_555",
+    "experiment_id": "EXP_01",
+    "variant": "A",
+    "source": "homepage",
+    "device_type": "mobile",
+    "watch_seconds": 120,
+    "position": 120
+  },
+  {
+    "event_id": "EVT_9002",
+    "timestamp": "2024-05-01T12:05:00Z",
+    "user_id": "USR_101",
+    "event_type": "pause",
+    "content_id": "CNT_001",
+    "session_id": "SES_555",
+    "experiment_id": null,
+    "variant": null,
+    "source": "homepage",
+    "device_type": "mobile",
+    "watch_seconds": null,
+    "position": 120
+  }
+]

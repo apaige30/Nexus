@@ -1,7 +1,22 @@
-{
-  "content_id": "cnt_001",
-  "title": "Top 10 DS Trends",
-  "content_type": "article",
-  "creator_id": "usr_001",
-  "publish_at": "2026-01-10T12:00:00Z"
-}
+[
+  {
+    "content_id": "CNT_001",
+    "author_id": "USR_101",
+    "title": "The Lost City",
+    "content_type": "movie",
+    "genre": "adventure",
+    "duration_seconds": 5400,
+    "quality_score": 8.7,
+    "published_at": "2024-03-12T10:00:00Z"
+  },
+  {
+    "content_id": "CNT_002",
+    "author_id": "USR_102",
+    "title": "Cooking with Fire",
+    "content_type": "show",
+    "genre": "cooking",
+    "duration_seconds": 1800,
+    "quality_score": 7.9,
+    "published_at": "2024-04-01T15:30:00Z"
+  }
+]
