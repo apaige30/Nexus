@@ -1,0 +1,7 @@
+{
+  "experiment_id": "string",
+  "experiment_name": "string",
+  "variant": "string",
+  "status": "string",
+  "start_date": "datetime"
+}
