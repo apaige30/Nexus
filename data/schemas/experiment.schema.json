@@ -1,7 +1,10 @@
 {
   "experiment_id": "string",
   "experiment_name": "string",
-  "variant": "string",
   "status": "string",
-  "start_date": "datetime"
+  "start_at": "datetime",
+  "end_at": "datetime|null",
+  "variants": "array[string]",
+  "primary_metric": "string",
+  "target_population": "string"
 }
