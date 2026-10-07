@@ -1,6 +1,11 @@
 {
   "user_id": "string",
-  "email": "string",
+  "birth_year": "integer",
+  "subscription_tier": "string",
+  "country": "string",
+  "device_type": "string",
+  "preferred_genres": "array[string]",
+  "engagement_level": "string",
   "display_name": "string",
   "role": "string",
   "created_at": "datetime"
