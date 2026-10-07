@@ -1,0 +1,7 @@
+{
+  "assignment_id": "string",
+  "experiment_id": "string",
+  "user_id": "string",
+  "variant": "string",
+  "assigned_at": "datetime"
+}
