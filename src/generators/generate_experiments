@@ -1,1 +1,63 @@
+import uuid
+from utils.time import random_timestamp
+import random
+from datetime import datetime, timedelta, timezone
 
+
+target_pop = ["US Users", "New Users", "Mobile Only", "TV Only", "Premium Users", "High Engagement Users", "All Users"]
+variants = ["Control", "Treatment"]
+metrics = ["click_through_rate","watch_time", "session_length","buffering_rate","conversion_rate"]
+
+experiments = [
+    {   
+        "experiment_id":"exp_001",
+        "experiment_name":"Homepage Layout Optimization",
+        "primary_metric": "click_through_rate"
+    },
+    {   
+        "experiment_id":"exp_002",
+        "experiment_name":"Recommendation",
+        "primary_metric": "watch_time"
+    },
+    {
+        "experiment_id":"exp_003",
+        "experiment_name":"Notification",
+        "primary_metric": "sessions_per_user"
+    }
+    ]
+
+def generate_experiments(seed):
+
+    status = random.choice(["draft", "running", "completed"])
+    now = datetime.now(timezone.utc)
+
+    if status == "draft":
+        start_at = now + timedelta(days =7)
+        end_at = None
+
+    if status == "running":
+        start_at = now + timedelta(days =14)
+        end_at = None
+
+    else:
+        end_at = now - timedelta(days=1)
+        start_at = end_at - timedelta(days=30)
+
+
+    return { 
+
+        "experiment_id": seed["experiment_id"],
+        "experiment_name": seed["experiment_name"],
+        "status": status,
+        "start_at": start_at,
+        "end_at": end_at,
+        "variants": random.choice(variants),
+        "primary_metric": seed["primary_metric"],
+        "target_population": "all_users"
+
+        }
+
+experiments = [
+    generate_expirements(seed)
+    for seed in experiments]
+    
