@@ -9,7 +9,7 @@
   "variant": "string|null",
   "source": "string|null",
   "device_type": "string",
-  "watch_seconds": "integer|null"
+  "watch_seconds": "integer|null",
   "position": "integer|null"
   
 }

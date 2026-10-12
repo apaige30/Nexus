@@ -1,22 +1,22 @@
 [
   {
-    "content_id": "CNT_001",
-    "author_id": "USR_101",
-    "title": "The Lost City",
+    "content_id": "cnt_001",
+    "author_id": "auth_001",
+    "title": "Friday",
     "content_type": "movie",
-    "genre": "adventure",
+    "genre": "Comedy",
     "duration_seconds": 5400,
-    "quality_score": 8.7,
+    "quality_score": 0.88,
     "published_at": "2024-03-12T10:00:00Z"
   },
   {
-    "content_id": "CNT_002",
-    "author_id": "USR_102",
-    "title": "Cooking with Fire",
-    "content_type": "show",
-    "genre": "cooking",
-    "duration_seconds": 1800,
-    "quality_score": 7.9,
+    "content_id": "cnt_002",
+    "author_id": "auth_002",
+    "title": "Harry Potter",
+    "content_type": "movie",
+    "genre": "SCIFI",
+    "duration_seconds": 4800,
+    "quality_score": 0.45,
     "published_at": "2024-04-01T15:30:00Z"
   }
 ]
