@@ -7,7 +7,7 @@ from utils.time import random_timestamp
 country =  ['US','MX','CA','GB','JP','UK']
 device_type = ['iOS','Android','Web','TV','Gaming Console']
 preferred_genres = ['Horror','Thriller','SCIFI','Romance','Comedy']
-user_subscription = ["Free", "Premium"]
+subscription = ["Free", "Premium"]
 role = ["User", "Admin"]
 
 
@@ -15,18 +15,18 @@ def generate_users():
 
     user_role =  random.choice(role)
 
-    user_subscription = "premium" if user_role =="admin" else random.choice(subscription)
+    subscription_tier = "Premium" if user_role =="Admin" else random.choice(subscription)
     return {
         
 
-        "user_id": str(uuid.uuid4()),
+        "user_id": f"usr_str{uuid.uuid4()}",
         "birth_year": random.randint(1960,2007),
-        "subscription_tier": user_subscription,
+        "subscription_tier": subscription_tier,
         "country": random.choice(country),
         "device_type": random.choice(device_type),
         "preferred_genres": random.sample(preferred_genres, k = 2),
-        "engagement_level": random.uniform(0,1),
-        "display_name": f"User_{random.randint(1000,999)}",
+        "engagement_level": round(random.uniform(0,1),2),
+        "display_name": f"User_{random.randint(100,999)}",
         "role": user_role,
         "created_at": random_timestamp()
 

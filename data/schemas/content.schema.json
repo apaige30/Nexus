@@ -1,7 +1,7 @@
 {
   "content_id": "string",
   "author_id": "string",
-  "title": "title",
+  "title": "string",
   "content_type": "string",
   "genre": "string",
   "duration_seconds": "integer",

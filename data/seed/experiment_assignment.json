@@ -1,16 +1,16 @@
 [
   {
-    "assignment_id": "ASN_5001",
-    "experiment_id": "EXP_01",
-    "user_id": "USR_101",
-    "variant": "A",
+    "assignment_id": "asn_01",
+    "experiment_id": "exp_01",
+    "user_id": "usr_101",
+    "variant": "Control",
     "assigned_at": "2024-04-01T00:05:00Z"
   },
   {
-    "assignment_id": "ASN_5002",
-    "experiment_id": "EXP_01",
-    "user_id": "USR_102",
-    "variant": "B",
+    "assignment_id": "asn_02",
+    "experiment_id": "exp_01",
+    "user_id": "usr_102",
+    "variant": "Treatment",
     "assigned_at": "2024-04-01T00:06:00Z"
   }
 ]

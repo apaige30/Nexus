@@ -7,7 +7,7 @@ from datetime import datetime, timedelta, timezone
 target_pop = ["US Users", "New Users", "Mobile Only", "TV Only", "Premium Users", "High Engagement Users", "All Users"]
 metrics = ["click_through_rate","watch_time", "session_length","buffering_rate","conversion_rate"]
 
-experiments = [
+experiment_info = [
     {   
         "experiment_id":"exp_001",
         "experiment_name":"Homepage Layout Optimization",
@@ -33,20 +33,22 @@ experiments = [
 
 def generate_experiments(seed):
 
-    status = experiments["status"]
+    status = seed["status"]
     now = datetime.now(timezone.utc)
 
     if status == "draft":
-        start_at = now + timedelta(days =7).date().isoformat()
+        start_at = (now + timedelta(days =7)).isoformat()
         end_at = None
 
     elif status == "running":
-        start_at = now - timedelta(days =14).date().isoformat()
+        start_at = (now - timedelta(days =14)).isoformat()
         end_at = None
 
     elif status == "completed":
-        end_at = now - timedelta(days=1).date().isoformat()
-        start_at = end_at - timedelta(days=30).date().isoformat()
+        end = now - timedelta(days=1)
+        start = end - timedelta(days =30)
+        start_at = start.isoformat()
+        end_at = end.isoformat()
 
     else:
         raise ValueError(f"Invalid status: {status}")
@@ -54,19 +56,19 @@ def generate_experiments(seed):
 
     return { 
 
-        "experiment_id": experiments["experiment_id"],
-        "experiment_name": experiments["experiment_name"],
+        "experiment_id": seed["experiment_id"],
+        "experiment_name": seed["experiment_name"],
         "status": status,
         "start_at": start_at,
         "end_at": end_at,
         "variants": ["Control", "Treatment"],
-        "primary_metric": experiments["primary_metric"],
-        "target_population": experiments["target_population"]
+        "primary_metric": seed["primary_metric"],
+        "target_population": seed["target_population"]
 
         }
 
 experiments = []
 
-for seed in experiments:
-    experiments.append(generate_experiments(seed))
+for experiment_seed in experiment_info:
+    experiments.append(generate_experiments(experiment_seed))
     

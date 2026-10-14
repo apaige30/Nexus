@@ -5,7 +5,7 @@
   "event_type": "string",
   "content_id": "string",
   "session_id": "string",
-  "expermient_id": "string|null",
+  "experimient_id": "string|null",
   "variant": "string|null",
   "source": "string|null",
   "device_type": "string",

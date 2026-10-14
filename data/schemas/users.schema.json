@@ -5,7 +5,7 @@
   "country": "string",
   "device_type": "string",
   "preferred_genres": "array[string]",
-  "engagement_level": "string",
+  "engagement_level": "number",
   "display_name": "string",
   "role": "string",
   "created_at": "datetime"

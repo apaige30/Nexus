@@ -111,21 +111,21 @@ def random_published_date ():
     end = datetime(2025,12,31)
 
     days_between = (end - start).days
-    random_days = random.randit(0, days_between)
+    random_days = random.randint(0, days_between)
 
     return(
         start+ timedelta(days = random_days)
     ).date().isoformat()
 
-def generate_content():
+def generate_content(seed):
 
-    content = random.choice(content_seed["content_type"]),
+    content = seed["content_type"]
 
-    if content == "movies":
+    if content == "movie":
         duration = random.randint(4800,9000)
     elif content == "series":
         duration = random.randint(1200,4200)
-    elif content =="shorts":
+    elif content =="short":
         duration = random.randint(10,60)
     else:
         duration = random.randint(1800,7200)
@@ -133,11 +133,11 @@ def generate_content():
 
     return {
 
-        "content_id":content_seed["content_id"],
-        "author_id":content_seed["author_id"],
-        "title": content_seed["title"],
-        "content_type": content_seed["content_type"],
-        "genre": content_seed["genre"],
+        "content_id":seed["content_id"],
+        "author_id":seed["author_id"],
+        "title": seed["title"],
+        "content_type": seed["content_type"],
+        "genre": seed["genre"],
         "duration_seconds": duration,
         "quality_score": round(random.uniform(.3,1.0),2),
         "published_at": random_published_date()
@@ -147,5 +147,4 @@ def generate_content():
 
 content = []
 for seed in content_seed:
-    content.append(generate_content())
-
+    content.append(generate_content(seed))

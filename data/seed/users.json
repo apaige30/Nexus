@@ -1,26 +1,26 @@
 [
   {
-    "user_id": "USR_101",
+    "user_id": "usr_101",
     "birth_year": 1995,
     "subscription_tier": "premium",
     "country": "US",
     "device_type": "mobile",
     "preferred_genres": ["adventure", "sci-fi"],
-    "engagement_level": "high",
-    "display_name": "AlP",
-    "role": "viewer",
+    "engagement_level": 0.87,
+    "display_name": "User_484",
+    "role": "User",
     "created_at": "2023-11-01T10:00:00Z"
   },
   {
-    "user_id": "USR_102",
+    "user_id": "usr_102",
     "birth_year": 1988,
     "subscription_tier": "basic",
     "country": "CA",
     "device_type": "tv",
     "preferred_genres": ["cooking", "documentary"],
-    "engagement_level": "medium",
-    "display_name": "ChefMaster",
-    "role": "viewer",
+    "engagement_level": 0.65,
+    "display_name": "User_454",
+    "role": "User",
     "created_at": "2023-12-15T08:30:00Z"
   }
 ]
