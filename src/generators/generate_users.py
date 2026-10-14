@@ -1,8 +1,10 @@
 import pandas as pd
 import uuid
+import json
+from pathlib import Path
 import random
 from datetime import datetime, timedelta
-from utils.time import random_timestamp
+from src.utils.time import random_timestamp
 
 country =  ['US','MX','CA','GB','JP','UK']
 device_type = ['iOS','Android','Web','TV','Gaming Console']
@@ -31,3 +33,10 @@ def generate_users():
         "created_at": random_timestamp()
 
         }
+users = [generate_users() for x in range(1000)]
+
+output_path = Path("data/raw/users.json")
+output_path.parent.mkdir(parents = True, exist_ok = True)
+
+with output_path.open("w", encoding = "utf-8") as u:
+    json.dump(users, u, indent =2)

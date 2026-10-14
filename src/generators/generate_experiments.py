@@ -1,7 +1,9 @@
 import uuid
-from utils.time import random_timestamp
+from src.utils.time import random_timestamp
 import random
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
+import json
 
 
 target_pop = ["US Users", "New Users", "Mobile Only", "TV Only", "Premium Users", "High Engagement Users", "All Users"]
@@ -71,4 +73,10 @@ experiments = []
 
 for experiment_seed in experiment_info:
     experiments.append(generate_experiments(experiment_seed))
+
+output_path = Path("data/raw/experiments.json")
+output_path.parent.mkdir(parents =True, exist_ok = True)
+
+with output_path.open("w", encoding = "utf-8") as f:
+    json.dump(experiments,f, indent =2)
     

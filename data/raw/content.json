@@ -1,0 +1,112 @@
+[
+  {
+    "content_id": "cnt_001",
+    "author_id": "auth_001",
+    "title": "Friday",
+    "content_type": "movie",
+    "genre": "Comedy",
+    "duration_seconds": 8057,
+    "quality_score": 0.35,
+    "published_at": "2019-07-26"
+  },
+  {
+    "content_id": "cnt_002",
+    "author_id": "auth_002",
+    "title": "Harry Potter",
+    "content_type": "movie",
+    "genre": "SCIFI",
+    "duration_seconds": 4914,
+    "quality_score": 0.32,
+    "published_at": "2018-09-09"
+  },
+  {
+    "content_id": "cnt_003",
+    "author_id": "auth_003",
+    "title": "Jason Bourne",
+    "content_type": "documentary",
+    "genre": "Comedy",
+    "duration_seconds": 5293,
+    "quality_score": 0.93,
+    "published_at": "2017-05-27"
+  },
+  {
+    "content_id": "cnt_004",
+    "author_id": "auth_004",
+    "title": "Insidious",
+    "content_type": "movie",
+    "genre": "Horror",
+    "duration_seconds": 8171,
+    "quality_score": 0.34,
+    "published_at": "2012-09-27"
+  },
+  {
+    "content_id": "cnt_005",
+    "author_id": "auth_005",
+    "title": "Als Revenge",
+    "content_type": "documentary",
+    "genre": "Thriller",
+    "duration_seconds": 3030,
+    "quality_score": 0.36,
+    "published_at": "2019-09-24"
+  },
+  {
+    "content_id": "cnt_006",
+    "author_id": "auth_006",
+    "title": "Broken Signal",
+    "content_type": "short",
+    "genre": "Thriller",
+    "duration_seconds": 29,
+    "quality_score": 0.47,
+    "published_at": "2020-09-17"
+  },
+  {
+    "content_id": "cnt_007",
+    "author_id": "auth_007",
+    "title": "Neon Skies",
+    "content_type": "short",
+    "genre": "Comedy",
+    "duration_seconds": 31,
+    "quality_score": 0.51,
+    "published_at": "2017-01-10"
+  },
+  {
+    "content_id": "cnt_008",
+    "author_id": "auth_008",
+    "title": "Broly Returns",
+    "content_type": "documentary",
+    "genre": "Romance",
+    "duration_seconds": 6288,
+    "quality_score": 0.5,
+    "published_at": "2020-09-03"
+  },
+  {
+    "content_id": "cnt_009",
+    "author_id": "auth_009",
+    "title": "Fantasia",
+    "content_type": "short",
+    "genre": "SCIFI",
+    "duration_seconds": 15,
+    "quality_score": 0.96,
+    "published_at": "2023-12-22"
+  },
+  {
+    "content_id": "cnt_010",
+    "author_id": "auth_010",
+    "title": "Notebook",
+    "content_type": "movie",
+    "genre": "Romance",
+    "duration_seconds": 8295,
+    "quality_score": 0.65,
+    "published_at": "2022-07-18"
+  },
+  {
+    "content_id": "cnt_011",
+    "author_id": "auth_011",
+    "title": "BMF",
+    "content_type": "documentary",
+    "genre": "Horror",
+    "duration_seconds": 4036,
+    "quality_score": 0.35,
+    "published_at": "2017-06-27"
+  }
+]

@@ -1,6 +1,8 @@
 import uuid
-from utils.time import random_timestamp
+from src.utils.time import random_timestamp
 import random
+import json
+from pathlib import Path
 from datetime import timedelta, datetime
 
 # content_type = ['movie','series','documentary',shorts]
@@ -148,3 +150,9 @@ def generate_content(seed):
 content = []
 for seed in content_seed:
     content.append(generate_content(seed))
+
+output_path = Path("data/raw/content.json")
+output_path.parent.mkdir(parents = True, exist_ok = True)
+
+with output_path.open("w", encoding = "utf-8") as f:
+    json.dump(content, f, indent =2)

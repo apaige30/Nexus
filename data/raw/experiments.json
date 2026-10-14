@@ -1,0 +1,41 @@
+[
+  {
+    "experiment_id": "exp_001",
+    "experiment_name": "Homepage Layout Optimization",
+    "status": "completed",
+    "start_at": "2026-09-13T18:07:31.237412+00:00",
+    "end_at": "2026-10-13T18:07:31.237412+00:00",
+    "variants": [
+      "Control",
+      "Treatment"
+    ],
+    "primary_metric": "click_through_rate",
+    "target_population": "all_users"
+  },
+  {
+    "experiment_id": "exp_002",
+    "experiment_name": "Recommendation",
+    "status": "running",
+    "start_at": "2026-09-30T18:07:31.237412+00:00",
+    "end_at": null,
+    "variants": [
+      "Control",
+      "Treatment"
+    ],
+    "primary_metric": "watch_time",
+    "target_population": "premium_users"
+  },
+  {
+    "experiment_id": "exp_003",
+    "experiment_name": "Notification",
+    "status": "draft",
+    "start_at": "2026-10-21T18:07:31.237412+00:00",
+    "end_at": null,
+    "variants": [
+      "Control",
+      "Treatment"
+    ],
+    "primary_metric": "sessions_per_user",
+    "target_population": "mobile_only"
+  }
+]
