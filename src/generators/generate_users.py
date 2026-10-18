@@ -21,7 +21,7 @@ def generate_users():
     return {
         
 
-        "user_id": f"usr_str{uuid.uuid4()}",
+        "user_id": f"usr_{str(uuid.uuid4())}",
         "birth_year": random.randint(1960,2007),
         "subscription_tier": subscription_tier,
         "country": random.choice(country),

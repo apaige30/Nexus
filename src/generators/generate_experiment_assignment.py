@@ -69,4 +69,17 @@ def generate_assignment(users, experiments):
 
             assignments.append(assignment)
     return assignments
-            
+
+user_path = Path("data/raw/users.json")
+experiment_path = Path("data/raw/experiments.json")
+users = load_records(user_path)
+experiment = load_records(experiment_path)
+
+exp_assignments = generate_assignment(users,experiment)
+
+output_path = Path("data/raw/assignments.json")
+output_path.parent.mkdir(parents = True, exist_ok = True)
+
+
+with output_path.open("w", encoding= "utf-8") as f:
+    json.dump(exp_assignments, f, indent= 2)
